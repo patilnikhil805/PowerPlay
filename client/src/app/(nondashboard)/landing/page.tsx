@@ -8,6 +8,7 @@ import { useCarousel } from "@/hooks/useCarousel";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useGetCoursesQuery } from "@/state/api";
 import { useRouter } from "next/navigation";
+import CourseCardSearch from "@/components/CourseCardSearch";
 // import CourseCardSearch from "@/components/CourseCardSearch";
 // import { useUser } from "@clerk/nextjs";
 
@@ -137,10 +138,10 @@ const Landing = () => {
                 transition={{ duration: 0.5, delay: index * 0.2 }}
                 viewport={{ amount: 0.4 }}
               >
-                {/* <CourseCardSearch
+                <CourseCardSearch
                   course={course}
                   onClick={() => handleCourseClick(course.courseId)}
-                /> */}
+                />
               </motion.div>
             ))}
         </div>
