@@ -19,7 +19,7 @@
     "aws-sdk": "^2.1692.0",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.4.7",
     "dynamoose": "^4.0.2",
     "express": "^4.21.1",
     "helmet": "^8.0.0",
